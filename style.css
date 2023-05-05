@@ -5,7 +5,7 @@
 }
 
 h1 {
-  border: black 2px solid;
+  border: black 2px solid; /*........Borrar linea al finalizar*/
   font-family: "Exo", sans-serif;
   text-align: center;
   font-size: 3.5vw;
@@ -18,7 +18,7 @@ h2 {
 }
 
 header {
-  border: 2px black solid;
+  border: 2px black solid; /*........Borrar linea al finalizar*/
   transition: ease-in 2s;
   width: 100%;
   margin: auto;
@@ -31,7 +31,7 @@ header:hover {
 }
 
 nav {
-  border: 2px black solid;
+  border: 2px black solid; /*........Borrar linea al finalizar*/
   background-color: rgb(91, 155, 252);
 
   color: aliceblue;
@@ -52,12 +52,12 @@ main {
 }
 
 .secciones {
-  border: 2px black solid;
+  border: 2px black solid; /*........Borrar linea al finalizar*/
   width: 70%;
 }
 
 aside {
-  border: 2px black solid;
+  border: 2px black solid; /*........Borrar linea al finalizar*/
   background-color: rgb(91, 155, 252);
   width: 30%;
   padding: 10px;
@@ -65,13 +65,13 @@ aside {
 }
 
 .maindiv1 {
-  border: 2px black solid;
+  border: 2px black solid; /*........Borrar linea al finalizar*/
   background-color: rgb(91, 155, 252);
   padding: 10px;
 }
 
 footer {
-  border: 2px black solid;
+  border: 2px black solid; /*........Borrar linea al finalizar*/
   background-color: rgb(91, 155, 252);
   display: flex;
   font-family: Arial, Helvetica, sans-serif;
