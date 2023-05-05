@@ -1,76 +1,79 @@
-*{
-    margin: 5px;
-    color: aliceblue;
-    border-radius: 5px;
+* {
+  margin: 5px;
+  color: aliceblue;
+  border-radius: 5px;
 }
 
 h1 {
-    border: black 2px solid;
-    font-family: 'Exo', sans-serif;
-    text-align: center;
-    font-size: 3.5vw;
-    background-color: rgb(91, 155, 252);
-    color: aliceblue;
-    -webkit-text-stroke: 1px black;
+  border: black 2px solid;
+  font-family: "Exo", sans-serif;
+  text-align: center;
+  font-size: 3.5vw;
+  background-color: rgb(91, 155, 252);
+  color: aliceblue;
+}
+
+h2 {
+  font-family: "Exo", sans-serif;
 }
 
 header {
-    border: 2px black solid;
-    transition: ease-in 2s;
-    width: 100%;
-    margin: auto;
+  border: 2px black solid;
+  transition: ease-in 2s;
+  width: 100%;
+  margin: auto;
 }
-
 
 header:hover {
-    width:80%;
-    transition: ease-out 1s;
-    margin: auto;
+  width: 80%;
+  transition: ease-out 1s;
+  margin: auto;
 }
 
-nav{
-    border: 2px black solid;
-    background-color: rgb(91, 155, 252);
+nav {
+  border: 2px black solid;
+  background-color: rgb(91, 155, 252);
 
-    color: aliceblue;
-    font-size: x-large;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: aliceblue;
+  font-size: x-large;
+  font-family: "Exo", sans-serif;
 
-    display: flex;
-    justify-content: space-evenly;
+  display: flex;
+  justify-content: space-evenly;
 }
 
-main{
-    border: 2px black solid;
-    
-    font-family:Arial, Helvetica, sans-serif;
-    
-    display: flex;  
-    flex-direction:row ;  
+main {
+  border: 2px black solid;
+
+  font-family: Arial, Helvetica, sans-serif;
+
+  display: flex;
+  flex-direction: row;
 }
 
-.secciones{
-    border: 2px black solid;
-    width: 70%;
+.secciones {
+  border: 2px black solid;
+  width: 70%;
 }
 
-aside{
-    border: 2px black solid;
-    background-color: rgb(91, 155, 252);
-    width: 30%;
-    padding: 10px;
-    text-align: center;
+aside {
+  border: 2px black solid;
+  background-color: rgb(91, 155, 252);
+  width: 30%;
+  padding: 10px;
+  text-align: center;
 }
 
-.maindiv1{
-    border: 2px black solid;
-    background-color: rgb(91, 155, 252);
-    padding: 10px;
+.maindiv1 {
+  border: 2px black solid;
+  background-color: rgb(91, 155, 252);
+  padding: 10px;
 }
 
-footer{
-    border: 2px black solid;
-    background-color: rgb(91, 155, 252);
-    display: flex;
-    justify-content: center;
+footer {
+  border: 2px black solid;
+  background-color: rgb(91, 155, 252);
+  display: flex;
+  font-family: Arial, Helvetica, sans-serif;
+  justify-content: center;
 }
