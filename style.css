@@ -1,7 +1,7 @@
 * {
-  margin: 5px;
+/* Saque los margins y border radius para el footer (ver si se pone separadamente en cada section */
   color: aliceblue;
-  border-radius: 5px;
+  margin: 0px;
 }
 
 h1 {
@@ -44,9 +44,7 @@ nav {
 
 main {
   border: 2px black solid;
-
   font-family: Arial, Helvetica, sans-serif;
-
   display: flex;
   flex-direction: row;
 }
@@ -70,10 +68,40 @@ aside {
   padding: 10px;
 }
 
-footer {
-  border: 2px black solid; /*........Borrar linea al finalizar*/
-  background-color: rgb(91, 155, 252);
-  display: flex;
+footer{
+  margin: 0px;
+  padding: 0px;
+  background-color: #1d2d49;
   font-family: Arial, Helvetica, sans-serif;
-  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
 }
+.foot1{
+  text-align: center;
+  margin: 15px;
+  font-weight: bold;
+}
+.socialMedia{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.fa-brands:hover{
+  animation: changeColor 0.6s linear 0s 1 normal forwards running;
+
+  
+  
+}
+@keyframes changeColor {
+  from {opacity: 1}
+  to {opacity: 0.3}
+}
+
+.fa-brands {
+  font-size: 2em;
+  margin: 15px;
+}
+
+
+
