@@ -1,15 +1,3 @@
-// declaracion de una funcion
-
-function mensaje(){
-    console.log("Hola Mundo")
-}
-
-//Invoco la funcion
-
-mensaje()
-
-//Clase para crear los jugadores de la plantilla
-
 class jugador {
     constructor(nombre, edad, equipo, posicion){
         this.nombre = nombre
@@ -27,6 +15,3 @@ let jugador1 = new jugador ("Lionel Messi","xx","Paris Saint Germain","Volante")
 
 console.log(jugador1)
 document.write(jugador1.nombre)
-
-
-
