@@ -1,6 +1,20 @@
 * {
   /* Saque los margins y border radius para el footer (ver si se pone separadamente en cada section */
-    margin: 0px;
+  margin: 0px;
+}
+/*fondo del body gradiente, creado en https://cssgradient.io/*/
+body {
+  background: rgb(91, 155, 252);
+  background: linear-gradient(
+    0deg,
+    rgb(91, 155, 252) 0%,
+    rgba(255, 255, 255, 1) 100%
+  );
+}
+
+.cuerpo {
+  width: 70%;
+  margin: auto;
 }
 
 h1 {
@@ -32,70 +46,68 @@ header {
 
 nav {
   background-color: rgb(126, 178, 255);
-  
+
   color: aliceblue;
   font-size: x-large;
   font-family: "Exo", sans-serif;
+  text-align: center; /*esto es para cuando se achica demasiaco la pagina y se hacen dos renglones, que quede centrado*/
 
   display: flex;
   justify-content: space-evenly;
 }
 
-nav a{
+nav a {
   color: aliceblue;
 }
-
-.carrousel{
+/* Imagen debajo del nav, se llama carrousel porque lo sera si nos da el tiempo*/
+.carrousel {
   width: 100%;
-  max-height: 300px;
+  max-height: 500px;
   display: flex;
-  justify-content: center;
-  align-items: center; 
-  overflow: hidden; 
+  align-items: center;
+  overflow: hidden;
 }
 
-.carrousel img{
+.carrousel img {
   width: 100%;
 }
-
 
 main {
   font-family: Arial, Helvetica, sans-serif;
   display: flex;
-  flex-direction: row; /*Una FILA con marco y aside*/
+  flex-direction: row; /*Una FILA con "section" y "aside"*/
 }
 
-.seccion {
+section {
   width: 75%;
   color: #1d2d49;
   border: rgb(132, 181, 255) 1px solid;
   background-color: aliceblue;
 }
 
-.maindiv1 {
+article {
   padding: 10px;
   padding-left: 10%;
   padding-right: 10%;
-  border: #491d1d solid 2px;
+  border-bottom: rgb(132, 181, 255) 1px solid;
 }
 
 aside {
   background-color: rgb(152, 193, 255);
   color: aliceblue;
   width: 25%;
-  padding: 10px;
+  padding: 3%;
   text-align: center;
   border: rgb(132, 181, 255) 1px solid;
 }
-
-
 
 footer {
   margin: 0px;
   padding: 0px;
   color: aliceblue;
   background-color: #1d2d49;
-  font-family: Arial, Helvetica, sans-serif;
+  /* font-family: Arial, Helvetica, sans-serif; Jordi: le puse la tipografia de la pagina para que veas si te convence, si vemos que no va volvemos a la anterior*/
+  font-family: "Exo", sans-serif;
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
