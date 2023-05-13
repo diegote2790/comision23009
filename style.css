@@ -48,7 +48,7 @@ nav {
   background-color: rgb(126, 178, 255);
 
   color: aliceblue;
-  font-size: x-large;
+  font-size: large;
   font-family: "Exo", sans-serif;
   /*esto es para cuando se achica demasiado la pagina y se hacen dos renglones, que quede centrado*/
   text-align: center;
@@ -87,7 +87,7 @@ section {
 }
 
 article {
-  padding: 10px;
+  padding: 40px;
   padding-left: 10%;
   padding-right: 10%;
   border-bottom: rgb(132, 181, 255) 1px solid;
@@ -142,19 +142,14 @@ footer {
 }
 
 /*+++++++++++++++RESPONSIVE +++++++++++++++++*/
-@media only screen and (max-width: 650px) {
+@media only screen and (max-width: 1000px) {
   h1 {
     font-size: 8vw;
-  }
-  nav {
-    font-size: large;
   }
   .cuerpo {
     width: auto;
   }
-
   main {
-    display: flex;
     flex-direction: column;
   }
   section {
@@ -165,9 +160,10 @@ footer {
   }
 }
 
-@media only screen and (max-width: 400px) {
+@media only screen and (max-width: 650px) {
   nav {
-    font-size: small;
+    font-size: large;
     border: #1d2d49 solid 1px;
+    flex-direction: column;
   }
 }
