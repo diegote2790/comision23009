@@ -13,7 +13,7 @@ body {
 }
 
 .cuerpo {
-  width: 70%;
+  width: 70vw;
   margin: auto;
 }
 
@@ -50,7 +50,8 @@ nav {
   color: aliceblue;
   font-size: x-large;
   font-family: "Exo", sans-serif;
-  text-align: center; /*esto es para cuando se achica demasiaco la pagina y se hacen dos renglones, que quede centrado*/
+  /*esto es para cuando se achica demasiado la pagina y se hacen dos renglones, que quede centrado*/
+  text-align: center;
 
   display: flex;
   justify-content: space-evenly;
@@ -95,7 +96,7 @@ article {
 aside {
   background-color: rgb(152, 193, 255);
   color: aliceblue;
-  width: 25%;
+  width: 25vw;
   padding: 3%;
   text-align: center;
   border: rgb(132, 181, 255) 1px solid;
@@ -138,4 +139,35 @@ footer {
   color: aliceblue;
   font-size: 2em;
   margin: 15px;
+}
+
+/*+++++++++++++++RESPONSIVE +++++++++++++++++*/
+@media only screen and (max-width: 650px) {
+  h1 {
+    font-size: 8vw;
+  }
+  nav {
+    font-size: large;
+  }
+  .cuerpo {
+    width: auto;
+  }
+
+  main {
+    display: flex;
+    flex-direction: column;
+  }
+  section {
+    width: auto;
+  }
+  aside {
+    width: auto;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  nav {
+    font-size: small;
+    border: #1d2d49 solid 1px;
+  }
 }
