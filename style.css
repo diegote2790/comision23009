@@ -115,6 +115,10 @@ aside {
   border: rgb(132, 181, 255) 1px solid;
 }
 
+aside p{
+  font-size: small;
+}
+
 footer {
   margin: 0px;
   padding: 0px;
