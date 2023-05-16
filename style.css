@@ -61,12 +61,16 @@ nav a {
   color: aliceblue;
 }
 
-nav a:hover{
+nav a:hover {
   animation: navAnimation 0.3s linear 0s 1 normal forwards running;
 }
 @keyframes navAnimation {
-  from {background-color: rgb(91, 155, 252)}
-  to {background-color: #1d2d49}
+  from {
+    background-color: rgb(91, 155, 252);
+  }
+  to {
+    background-color: #1d2d49;
+  }
 }
 
 /* Imagen debajo del nav, se llama carrousel porque lo sera si nos da el tiempo*/
@@ -150,7 +154,16 @@ footer {
   margin: 15px;
 }
 
-/*+++++++++++++++RESPONSIVE +++++++++++++++++*/
+.afaLogoCont {
+  display: flex;
+  justify-content: center;
+}
+
+.afaLogoCont:hover {
+  animation: changeColor 0.6s linear 0s 1 normal forwards running;
+}
+
+/*+++++++++++++++ RESPONSIVE +++++++++++++++++*/
 @media only screen and (max-width: 1000px) {
   h1 {
     font-size: 8vw;
