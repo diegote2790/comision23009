@@ -60,6 +60,15 @@ nav {
 nav a {
   color: aliceblue;
 }
+
+nav a:hover{
+  animation: navAnimation 0.3s linear 0s 1 normal forwards running;
+}
+@keyframes navAnimation {
+  from {background-color: rgb(91, 155, 252)}
+  to {background-color: #1d2d49}
+}
+
 /* Imagen debajo del nav, se llama carrousel porque lo sera si nos da el tiempo*/
 .carrousel {
   width: 100%;
