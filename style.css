@@ -196,3 +196,26 @@ footer {
     flex-direction: column;
   }
 }
+/* Pagina Los Campeones */
+
+.cardConteiner{
+  width: 110%;
+  margin-top: 30px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.tarjeta{
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 10px;
+  border: black 2px solid;
+  border-radius: 5px ;
+  font-size: small;
+}
+
+.tarjeta:hover{
+}
+
+h4{
+  font-family: "Exo", sans-serif;
+}
