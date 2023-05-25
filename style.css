@@ -1,5 +1,4 @@
 * {
-  /* Saque los margins y border radius para el footer (ver si se pone separadamente en cada section */
   margin: 0px;
 }
 /*fondo del body gradiente, creado en https://cssgradient.io/*/
@@ -24,6 +23,7 @@ h1 {
   background-color: rgb(91, 155, 252);
   color: aliceblue;
   transition: ease-out 1s;
+  margin-bottom: 0;
 }
 
 h1:hover {
@@ -46,13 +46,11 @@ header {
 
 nav {
   background-color: rgb(126, 178, 255);
-
   color: aliceblue;
   font-size: x-large;
   font-family: "Exo", sans-serif;
   /*esto es para cuando se achica demasiado la pagina y se hacen dos renglones, que quede centrado*/
   text-align: center;
-
   display: flex;
   justify-content: space-evenly;
 }
@@ -127,7 +125,6 @@ footer {
   padding: 0px;
   color: aliceblue;
   background-color: #1d2d49;
-  /* font-family: Arial, Helvetica, sans-serif; Jordi: le puse la tipografia de la pagina para que veas si te convence, si vemos que no va volvemos a la anterior*/
   font-family: "Exo", sans-serif;
   display: flex;
   flex-direction: column;
@@ -166,7 +163,7 @@ footer {
   justify-content: center;
 }
 
-.afaLogoCont:hover {
+.afaLogo:hover {
   animation: changeColor 0.6s linear 0s 1 normal forwards running;
 }
 
@@ -195,4 +192,60 @@ footer {
     border: #1d2d49 solid 1px;
     flex-direction: column;
   }
+}
+/* Pagina Los Campeones */
+
+.cardConteiner{
+  width: 110%;
+  margin-top: 30px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.tarjeta{
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 10px;
+  border: black 2px solid;
+  border-radius: 5px ;
+  font-size: small;
+}
+
+.tarjeta:hover{
+}
+
+h4{
+  font-family: "Exo", sans-serif;
+}
+
+
+/* Pagina formulario */
+.expForm{
+  text-align: center;
+  display: flexbox;
+}
+.labels{
+  line-height: 2.5cap;
+}
+.inputsForm{
+  font-family: "Exo", sans-serif;
+  width: 50%;
+  padding: 5px 7px;
+  box-sizing: border-box;
+  background-color: #f8f8f8;
+  font-size: medium;
+  border: 1px solid #ccc;
+  border-radius: 2px;
+}
+.textForm{
+  font-family: "Exo", sans-serif;
+  width: 75%;
+  height: 400px;
+  padding: 5px 7px;
+  box-sizing: border-box;
+  background-color: #f8f8f8;
+  font-size: medium;
+  border: 1px solid #ccc;
+  border-radius: 2px;
+  box-sizing: border-box;
+  resize: none;
 }
