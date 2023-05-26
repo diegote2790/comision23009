@@ -1,4 +1,4 @@
-var data= [
+var data = [
   {
     id: 1,
     nombre: "Franco Armani",
@@ -241,5 +241,5 @@ var data= [
     posicion: "Entrenador",
     equipo: "Seleccion Argentina",
     image: "./img/jugadores/",
-  }
-]
+  },
+];

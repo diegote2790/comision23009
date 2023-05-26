@@ -1,8 +1,7 @@
-var card=
-`<div class="cardConteiner">
-`
- for(let i=0 ; i< data.length ; i++){
-    card += `
+var card = `<div class="cardConteiner">
+`;
+for (let i = 0; i < data.length; i++) {
+  card += `
     <div class="tarjeta">
         <img src="${data[i].image}" height="140px" width="160px" alt="">
         <div class="cuerpoTarjeta">
@@ -13,11 +12,11 @@ var card=
             <p>Equipo: ${data[i].equipo} </p>
         </div>
     </div>
-    `
+    `;
 }
-card+=`
+card += `
 </div>
-`
+`;
 
 // document.write(card) si dejaba este campo me repetia las tarjetas debajo del footer
-document.getElementById("fotos").innerHTML=card
+document.getElementById("fotos").innerHTML = card;

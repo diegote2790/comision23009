@@ -40,6 +40,10 @@ h3 {
   font-family: "Exo", sans-serif;
 }
 
+h4 {
+  font-family: "Exo", sans-serif;
+}
+
 header {
   margin: auto;
 }
@@ -118,8 +122,12 @@ aside {
   align-items: center;
 }
 
-aside p{
+aside p {
   font-size: small;
+}
+
+.proxPart{
+  border-bottom: rgb(132, 181, 255) 1px solid;
 }
 
 footer {
@@ -173,7 +181,7 @@ footer {
 /*+++++++++++++++ RESPONSIVE +++++++++++++++++*/
 @media only screen and (max-width: 1000px) {
   h1 {
-    font-size: 8vw;
+    font-size: medium;
   }
   .cuerpo {
     width: auto;
@@ -198,24 +206,22 @@ footer {
 }
 /* Pagina Los Campeones */
 
-.cardConteiner{
+.cardConteiner {
   width: 110%;
   margin-top: 30px;
   display: flex;
   flex-wrap: wrap;
 }
 
-.tarjeta{
+.tarjeta {
   font-family: Arial, Helvetica, sans-serif;
   margin: 10px;
   border: black 2px solid;
-  border-radius: 5px ;
+  border-radius: 5px;
   font-size: small;
 }
 
-.tarjeta:hover{
-}
-
-h4{
-  font-family: "Exo", sans-serif;
+.tarjeta:hover {
+  scale: 1.1;
+  transition: ease-in-out 0.1s;
 }
