@@ -219,7 +219,7 @@ h4{
 
 
 /* Pagina formulario */
-.expForm{
+.form{
   text-align: center;
   display: flexbox;
 }
@@ -248,4 +248,51 @@ h4{
   border-radius: 2px;
   box-sizing: border-box;
   resize: none;
+}
+.sendButton{
+  background-color: #1d2d49; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin-bottom: 15px;
+  border-radius: 5%;
+}
+
+/* Fan zone page */
+.slider-frame{
+  width: 550px;
+  height: auto;
+  margin: 50px auto 0;
+  overflow: hidden;
+
+}
+.slider-frame ul{
+  display: flex;
+  padding: 0;
+  width: 400%;
+  animation: slide 16s infinite alternate ease-in-out;
+}
+.slider-frame li{
+  list-style: none;
+  width: 100%;
+}
+.slider-frame img{
+  width: 100%;
+}
+@keyframes slide{
+  0% {margin-left: 0%;}
+  20% {margin-left: 0%;}
+
+  25% {margin-left: -100%;}
+  45% {margin-left: -100%;}
+
+  50% {margin-left: -200%;}
+  70% {margin-left: -200%;}
+
+  75% {margin-left: -300%;}
+  95% {margin-left: -300%;}
 }
