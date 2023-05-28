@@ -237,9 +237,9 @@ var data= [
     id: 27,
     nombre: "Lionel Scaloni",
     edad: "44 años",
-    numero: "",
+    numero: "N/A",
     posicion: "Entrenador",
-    equipo: "Seleccion Argentina",
-    image: "./img/jugadores/",
+    equipo: "Sel. Argentina",
+    image: "./img/jugadores/scaloni.jpg",
   }
 ]
