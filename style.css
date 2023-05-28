@@ -23,7 +23,6 @@ h1 {
   background-color: rgb(91, 155, 252);
   color: aliceblue;
   transition: ease-out 1s;
-  margin-bottom: 0;
 }
 
 h1:hover {
@@ -116,8 +115,12 @@ aside {
   align-items: center;
 }
 
-aside p{
+aside p {
   font-size: small;
+}
+
+.proxPart {
+  border-bottom: rgb(132, 181, 255) 1px solid;
 }
 
 footer {
@@ -195,38 +198,39 @@ footer {
 }
 /* Pagina Los Campeones */
 
-.cardConteiner{
+.cardConteiner {
   width: 110%;
   margin-top: 30px;
   display: flex;
   flex-wrap: wrap;
 }
 
-.tarjeta{
+.tarjeta {
   font-family: Arial, Helvetica, sans-serif;
   margin: 10px;
   border: black 2px solid;
-  border-radius: 5px ;
+  border-radius: 5px;
   font-size: small;
 }
 
-.tarjeta:hover{
+.tarjeta:hover {
+  scale: 1.1;
+  transition: ease-in-out 0.1s;
 }
 
-h4{
+h4 {
   font-family: "Exo", sans-serif;
 }
 
-
 /* Pagina formulario */
-.form{
+.form {
   text-align: center;
   display: flexbox;
 }
-.labels{
+.labels {
   line-height: 2.5cap;
 }
-.inputsForm{
+.inputsForm {
   font-family: "Exo", sans-serif;
   width: 50%;
   padding: 5px 7px;
@@ -236,7 +240,7 @@ h4{
   border: 1px solid #ccc;
   border-radius: 2px;
 }
-.textForm{
+.textForm {
   font-family: "Exo", sans-serif;
   width: 75%;
   height: 400px;
@@ -249,7 +253,7 @@ h4{
   box-sizing: border-box;
   resize: none;
 }
-.sendButton{
+.sendButton {
   background-color: #1d2d49; /* Green */
   border: none;
   color: white;
@@ -263,36 +267,51 @@ h4{
 }
 
 /* Fan zone page */
-.slider-frame{
+.slider-frame {
   width: 550px;
   height: auto;
   margin: 50px auto 0;
   overflow: hidden;
-
 }
-.slider-frame ul{
+.slider-frame ul {
   display: flex;
   padding: 0;
   width: 400%;
   animation: slide 16s infinite alternate ease-in-out;
 }
-.slider-frame li{
+.slider-frame li {
   list-style: none;
   width: 100%;
 }
-.slider-frame img{
+.slider-frame img {
   width: 100%;
 }
-@keyframes slide{
-  0% {margin-left: 0%;}
-  20% {margin-left: 0%;}
+@keyframes slide {
+  0% {
+    margin-left: 0%;
+  }
+  20% {
+    margin-left: 0%;
+  }
 
-  25% {margin-left: -100%;}
-  45% {margin-left: -100%;}
+  25% {
+    margin-left: -100%;
+  }
+  45% {
+    margin-left: -100%;
+  }
 
-  50% {margin-left: -200%;}
-  70% {margin-left: -200%;}
+  50% {
+    margin-left: -200%;
+  }
+  70% {
+    margin-left: -200%;
+  }
 
-  75% {margin-left: -300%;}
-  95% {margin-left: -300%;}
+  75% {
+    margin-left: -300%;
+  }
+  95% {
+    margin-left: -300%;
+  }
 }
