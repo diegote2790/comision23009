@@ -81,41 +81,36 @@
           >
             <p>
               <br />
-              <label class="labels" for="firstname">Nombre</label>
+              <label class="labels" for="Nombre">Nombre</label>
               <br />
               <input
                 class="inputsForm"
                 type="text"
                 id="Nombre"
                 name="firstname"
-                required
-                placeholder="Ingresa tu nombre"
               />
             </p>
             <p>
               <br />
-              <label class="labels" for="lastname">Apellido</label>
+              <label class="labels" for="Apellido">Apellido</label>
               <br />
               <input
                 class="inputsForm"
                 type="text"
                 id="Apellido"
                 name="lastname"
-                required
-                placeholder="Ingresa tu apellido"
               />
             </p>
             <p>
               <br />
-              <label class="labels" for="comments"
+              <label class="labels" for="txForm"
                 >Cuentanos tu experiencia</label
               >
               <br />
               <textarea
                 class="textForm"
                 name="comments"
-                required
-                placeholder="Describe tu experiencia"
+                id="txForm"
               ></textarea>
             </p>
             <p>
@@ -239,9 +234,12 @@
       </footer>
     </div>
 
-
+    <!-- ESTE JS ES LA CORRECCION -->
+    <script src="./validacion.js"></script>
     
-    <script>
+    <!-- ESTO ES LO QUE NO VA
+      
+      <script>
       const $form = document.querySelector("#form");
       $form.addEventListener("submit", handleSubmit);
       async function handleSubmit(event) {
@@ -259,6 +257,6 @@
           alert("Gracias por compartir tu experiencia");
         }
       }
-    </script>
+    </script> -->
   </body>
 </html>
